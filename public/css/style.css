@@ -1,0 +1,32 @@
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: #ccc;
+}
+
+body {
+	padding-top: 50px;
+	
+	background: #9ee8fa; /* Old browsers */
+background: -moz-linear-gradient(top,  #d6f9ff 0%, #9ee8fa 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6f9ff), color-stop(100%,#9ee8fa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d6f9ff 0%,#9ee8fa 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d6f9ff 0%,#9ee8fa 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d6f9ff 0%,#9ee8fa 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d6f9ff 0%,#9ee8fa 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+background-repeat: no-repeat;
+background-color: #9ee8fa;	
+}
+
+div.container {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	border: solid 1px #999; /* Memberikan efek border */
+	box-shadow: 2px 2px 1px #333; /* Memberikan efek shadow */
+}
+h2 {
+	color: maroon;
+}
+.table {
+	background-color: #fff;
+}
